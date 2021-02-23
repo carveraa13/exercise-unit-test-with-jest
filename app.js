@@ -35,10 +35,5 @@ const sum = (a,b) => {
 // just a console log for ourselves.
 console.log(7,3)
 
-// export the function to be used on other files 
-// (similar to the keyword `export` when using webpack)
-module.exports = { sum };
-
-
 // tenemos que incluir la funcion en el exports para que sea exportada a otros archivos como test.js
 module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYenToPound }
